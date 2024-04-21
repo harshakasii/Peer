@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-    // databaseURL: process.env.REACT_APP_DATABASE_URL,
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_APP_ID
+  apiKey: "AIzaSyDEDN7fc1XW2Sj-Krf8AJNafDk5prB5wXo",
+  authDomain: "peerdorm-839f7.firebaseapp.com",
+  databaseURL: "https://peerdorm-839f7-default-rtdb.firebaseio.com",
+  projectId: "peerdorm-839f7",
+  storageBucket: "peerdorm-839f7.appspot.com",
+  messagingSenderId: "59621925594",
+  appId: "1:59621925594:web:b2277b46e634b17f0bfbe3"
 };
 
 // Initialize Firebase
